@@ -1,21 +1,32 @@
+/*
+body {
+    width: 900;
+    margin: 0 auto;
+}*/
+
+p {
+    width: auto;
+}
 
 #header {/* здесь будет лого и еще что-нибудь вроде поддержки проекта.
             минимальная ширина будет зависеть от лого и остального*/
-    width: 100%;
     /*min-width: 600px;*/
     height: auto;
     margin-top: 25px;
 }
 
-#pade {
-    height: auto;
+#page {
+    width: 400px;
+    min-height: 600px;
+    margin: 0 auto;
 }
 
 #footer {
     margin-top: 20px;
-    border-top: 1px solid black;
-
+    width: 400px;
+    margin: 0 auto;
 }
+
 
 .letter-field {
     width: 50px;
