@@ -1,42 +1,92 @@
-/*
+html {
+    height: 100%;
+}
+
 body {
-    width: 900;
-    margin: 0 auto;
-}*/
+    min-height: 900px;
+    width: 100%;
+    margin: 0px;
+}
+
+h1 {
+    margin: 0;
+}
 
 p {
+    margin: 0;
+    align-self : center;
     width: auto;
 }
 
-#header {/* здесь будет лого и еще что-нибудь вроде поддержки проекта.
-            минимальная ширина будет зависеть от лого и остального*/
-    /*min-width: 600px;*/
-    height: auto;
-    margin-top: 25px;
+hr {
+    margin: 2px;
+}
+
+header {
+    min-height: 100px;
+    background: rgb(142, 197, 54);
+    padding: 0px 50px;
+    color: rgb(45, 45, 46);
+}
+
+footer {
+    padding: 25px;
+
+    min-height: 100px;
+    margin: 0 ;
+    background: rgb(99, 100, 102);
+    color: rgb(148, 211, 212);
 }
 
 #page {
-    width: 400px;
-    min-height: 600px;
+    width: 900px;
+    min-height: 900px;
     margin: 0 auto;
+    padding: 25px;
+    background: rgb(148, 211, 212);
 }
 
-#footer {
-    margin-top: 20px;
-    width: 400px;
-    margin: 0 auto;
+#container_play_field {
+    float: left;
 }
 
+#questions_field {
+    float: right;
+}
 
-.letter-field {
-    width: 50px;
-    height: 50px;
+#play_field
+{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    border-spacing: 0px;
+    border: 1px solid black;
+}
+
+#menu_list{
+    list-style-type: none;
+}
+
+.nav_buttom {
+    float:left;
+    margin: 0px 10px;
+}
+
+.header_link {
+    text-decoration:none;
+    color: rgb(45, 45, 46);
+}
+
+.letter_field {
+    width: auto;
+    height: auto;
     background-color: rgb(255, 255, 255);
+    border: 1px solid black;
 }
 
-.letter-field-selected {
-    width: 50px;
-    height: 50px;
+.letter_field_selected {
+    width: auto;
+    height: auto;
     background-color: rgb(255, 229, 125);
-    border: 3px rgb(217, 134, 0);
+    border: 1px solid black;
 }
