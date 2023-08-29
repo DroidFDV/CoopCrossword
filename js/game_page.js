@@ -35,11 +35,11 @@ function createField(size)
         }
     }
 
-    container_play_field.prepend(table);
+    crossword_container.prepend(table);
 }
 
 
 
-createField(10);
+createField(15);
 
 
